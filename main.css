@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, 
+footer {
+    font-family: 'Great Vibes', cursive;
+    padding: 16px 0;
+    background-color: #0f0f0f;
+    color: #d40808;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3, p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+header h1 {
+    font-size: 56px;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
+
+header nav li a {
+    color: #d40808;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+header .container, 
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+section .container {
+    display: block;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+section {
+    padding: 24px 0;
+    background-color: #1d1d1d;
+    color: #d40808;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.logo-dmc {
+    margin-right: 32px;
+}
+
+#characters .list ul {
+    display: flex;
+    align-items: top;
+}
+
+#characters .list li {
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#characters .container img {
+    height: 320px;
+    
+}
+
+#funfacts .container h3{
+    text-decoration: underline;
+}
+
+#other-games .list img {
+    height: 224px;
+    margin-left: 0px;
+}
+    
+#other-games .list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-socialmedia .contact-methods {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-socialmedia .contact-methods li{
+    list-style: none;
+}
+
+#contact-socialmedia .social img {
+    height: 24px;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #0f0f0f;
+    color: #d40808;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-socialmedia .social li {
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#contact-socialmedia .social li a {
+    text-decoration: none;
+}
+
+form button:hover {
+    background-color:#292929 ;
+}
+
+input:focus, textarea:focus {
+    outline-color: #1d1d1d;
+}
+
+footer p {
+    text-align: center;
+}
