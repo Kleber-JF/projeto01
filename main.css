@@ -21,7 +21,7 @@ h2 {
 
 h3, p {
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 header h1 {
@@ -82,11 +82,13 @@ section p{
 
 #characters .list ul {
     display: flex;
+    justify-content: space-between;
     align-items: top;
 }
 
 #characters .list li {
     list-style: none;
+    max-width: 240px;
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -108,12 +110,13 @@ section p{
 #other-games .list ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #contact-socialmedia .contact-methods {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 128px;
 }
 
 #contact-socialmedia .contact-methods li{
