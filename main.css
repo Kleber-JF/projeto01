@@ -94,8 +94,9 @@ section p{
 }
 
 #characters .container img {
-    height: 320px;
-    
+    height: 50%;
+    width: 220px;
+    object-fit: cover;
 }
 
 #funfacts .container h3{
